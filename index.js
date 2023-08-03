@@ -19,10 +19,20 @@
 
 // SCOPE CHAIN AND LEXICAL ENVIROMENT
 function a() {
-    console.log(b);
+    var a = 10;
+    c();
+    function c() {
+
+    }
 }
-var b = 10;
 a();
+
+// LET CONST VAR
+
+console.log(b);
+let a  = 10;
+var b = 100;
+
 
 
 
