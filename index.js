@@ -88,6 +88,13 @@ const  c = 100;
 }
 console.log(c);
 
+//  inligial shadowing
+
+let a = 20;
+{
+    var a = 20;
+}
+
 
 
 
