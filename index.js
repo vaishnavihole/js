@@ -33,6 +33,14 @@ let a  = 10;
 
 var b = 100;
 
+// Block 
+//  it is also known as Compound Statement
+if(true) {
+    var a = 10;
+    console.log(a);
+}
+
+
 
 
 
